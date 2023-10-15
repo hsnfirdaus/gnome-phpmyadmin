@@ -1,0 +1,17 @@
+{
+  "name": "gnome-phpmyadmin",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "./download.sh && zip-build src",
+    "lint": "eslint .",
+    "start": "./install.sh && dbus-run-session -- gnome-shell --nested --wayland",
+    "debug-gjs": "journalctl -f -o cat /usr/bin/gjs"
+  },
+  "devDependencies": {
+    "eslint": "^8.26.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1",
+    "zip-build": "^1.8.0"
+  }
+}

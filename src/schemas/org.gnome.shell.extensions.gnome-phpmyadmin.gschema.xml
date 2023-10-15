@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.gnome-phpmyadmin.gschema" path="/org/gnome/shell/extensions/gnome-phpmyadmin/">
+    <key name="php-binary" type="s">
+      <default>'php'</default>
+      <summary>PHP Executable binary</summary>
+      <description>Location or binary name of PHP that used as built in server</description>
+    </key>
+
+    <key name="pma-port" type="u">
+      <default>8430</default>
+      <summary>phpMyAdmin port</summary>
+      <description>Port that will be bind by phpMyAdmin</description>
+    </key>
+  </schema>
+</schemalist>
