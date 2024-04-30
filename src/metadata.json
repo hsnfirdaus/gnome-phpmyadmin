@@ -1,7 +1,7 @@
 {
   "description": "Run phpMyAdmin from GNOME Shell.",
   "name": "GNOME phpMyAdmin",
-  "shell-version": ["45"],
+  "shell-version": ["45","46"],
   "settings-schema": "org.gnome.shell.extensions.gnome-phpmyadmin.gschema",
   "url": "https://github.com/hsnfirdaus/gnome-phpmyadmin",
   "uuid": "gnome-phpmyadmin@hasanfirdaus.com",
