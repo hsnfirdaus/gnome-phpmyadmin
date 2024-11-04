@@ -133,3 +133,5 @@ build
 builddir
 
 src/phpmyadmin
+
+pma.zip
